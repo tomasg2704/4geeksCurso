@@ -1,0 +1,21 @@
+body{
+    background: #0e0e0e;
+    margin: 0;
+}
+
+.container{
+    background-color: black;
+    width: 55%;
+    height: 945px;
+    margin: auto;
+}
+
+.post{
+    background-color: white;
+    width: 55%;
+    margin: auto;
+}
+
+.post-image img{
+    width: 100%;
+}
