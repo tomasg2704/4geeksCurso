@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/0fb043fd4a.js"></script>
     <title>The Instagram Post</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+<body>
     <div class="container">
-        <h1>Hola</h1>
-      <div class="post">
-        <div class="post-tittle">
-            <h2>HTML 5</h2>
-            <h3>Tomas</h3>
-            <span>Tres puntos</span>
+        <div class="post-header">
+            <div class="post-header-icon-left">
+                <i class="fa fa-html5" aria-hidden="true"></i>
+            </div>
+            <div class="post-header-icon-right">
+                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </div>
+            <div class="post-header-user"> 
+                <span class="user">
+                    <h1>HTML5</h1>
+                </span>
+                <span class="location">
+                    <p>Tomas</p>
+                </span>
+            </div>
         </div>
-        <div class="post-image">
-            <img src="http://lorempixel.com/400/200">
+        <div class="post-img">
+            <img src="http://lorempixel.com/400/200" />
         </div>
-        <div class="post-icons">
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
+        <div class="post-body">
+            <div class="post-icons">
+                <span class="left-icons">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                    <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </span><span class="right-icons">
+                    <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+                </span>
+            </div>
+            <div class="post-description">
+                <p>Liked by <strong>4GeeksAcademy, HTML, Web and 100,000 others </strong></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
         </div>
-        <div class="post-likes">
-            <p>Liked by <strong>4GeeksAcademy, html5, Web</strong> and <strong>100,000 others</strong></p>
-        </div>
-        <div class="post-comment">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </div>
-      </div>
     </div>
-  </body>
+</body>
 </html>
